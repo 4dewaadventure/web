@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Inter Thin"; /*a name to be used later*/
+  src: url("asset/font/Inter-Thin.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter ExtraLight"; /*a name to be used later*/
+  src: url("asset/font/Inter-ExtraLight.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Light"; /*a name to be used later*/
+  src: url("asset/font/Inter-Light.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter"; /*a name to be used later*/
+  src: url("asset/font/Inter-Regular.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Medium"; /*a name to be used later*/
+  src: url("asset/font/Inter-Medium.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter SemiBold"; /*a name to be used later*/
+  src: url("asset/font/Inter-SemiBold.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Bold"; /*a name to be used later*/
+  src: url("asset/font/Inter-Bold.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter ExtraBold"; /*a name to be used later*/
+  src: url("asset/font/Inter-ExtraBold.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Black"; /*a name to be used later*/
+  src: url("asset/font/Inter-Black.ttf"); /*URL to font*/
+  font-style: normal;
+}
+
+* {
+  font-family: "Inter";
+}
+
+.container {
+  max-width: 960px;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/*
+   * Custom translucent site header
+   */
+
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color 0.15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+   * Extra utilities
+   */
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.carousel-caption {
+  height: 50%;
+}
+
+.carousel-caption h1 {
+  font-family: "Inter ExtraBold";
+}
+
+.overflow-hidden .card-title {
+  height: 70%;
+}
+
+.overflow-hidden .card-text {
+  font-size: 1.1em;
+  color: #638b2e;
+}
+
+.man-image,
+.woman-image,
+.best-sellers {
+  position: relative;
+}
+
+.man-image-caption {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  padding: 2rem 4rem 0 0;
+  color: #000;
+  text-align: end;
+}
+
+.man-image-caption u,
+.woman-image-caption u,
+.best-sellers-title u {
+  font-size: 3rem;
+  font-family: "Inter Black";
+  font-style: italic;
+}
+
+.woman-image-caption {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  padding: 2rem 0 0 4rem;
+  color: #000;
+  text-align: start;
+}
+
+.best-sellers-title {
+  width: 100%;
+  padding: 0 0 2rem 0;
+  color: #000;
+  text-align: justify;
+}
+
+.best-sellers-caption {
+  position: absolute;
+  top: 4rem;
+  left: 0rem;
+  padding: 2rem 0 0 0;
+  color: #000;
+  text-align: start;
+}
+
+.product-title {
+  font-size: 1.5rem;
+}
+
+.product-price {
+  font-size: 1.4rem;
+  color: #638b2e;
+}
+
+.product-about {
+  font-family: "Inter Medium";
+  font-size: 1rem;
+}
+
+.product-desc {
+  font-size: 1rem;
+}
+
+.footer-list {
+  font-family: "Inter Light";
+  font-size: 0.85rem;
+}
